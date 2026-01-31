@@ -49,13 +49,13 @@ export function AccessSection() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent">
-                <Link href="#">
+                <Link href="https://snipsnap-o1.vercel.app/shop/d1669717-95f4-4f80-932f-d412576d55a7/reserve">
                   <Globe className="w-5 h-5 mr-2" />
                   Webで予約する
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-accent-foreground bg-transparent">
-                <Link href="#">
+                <Link href="https://snipsnap-o1.vercel.app/shop/d1669717-95f4-4f80-932f-d412576d55a7/reserve?openExternalBrowser=1">
                   <MessageCircle className="w-5 h-5 mr-2" />
                   LINEで予約
                 </Link>
