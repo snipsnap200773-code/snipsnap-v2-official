@@ -69,7 +69,7 @@ export function AccessSection() {
             </h3>
             <div className="aspect-4/3 rounded-2xl overflow-hidden border border-border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.8!2d139.5!3d35.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDMwJzAwLjAiTiAxMznCsDMwJzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d1623.3935676134251%212d139.51649685623113%213d35.53425764562654%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x6018f83ccbac0c29%3A0x96b1338a29b7a284%212z576O5a655a6kU25pcFNuYXA%215e0%213m2%211sja%212sjp%214v1617011127231%215m2%211sja%212sjp"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
