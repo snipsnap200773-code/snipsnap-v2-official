@@ -112,7 +112,12 @@ export function ServicesSection() {
             <DialogTitle className="font-serif text-xl border-b pb-2">
               {selectedService !== null && services[selectedService].title}
             </DialogTitle>
+            {/* 警告解消：アクセシビリティのための説明文タグを追加 */}
+            <DialogDescription className="sr-only">
+              {selectedService !== null && services[selectedService].shortDesc}
+            </DialogDescription>
           </DialogHeader>
+          {/* レイアウトを維持するため、fullDescはHeaderの外側に配置 */}
           <div className="py-4 text-muted-foreground leading-relaxed">
             {selectedService !== null && services[selectedService].fullDesc}
           </div>
