@@ -32,7 +32,7 @@ export function PriceSection() {
     { name: "中学生", price: "¥2,500" },
     { name: "小学生", price: "¥2,000" },
     { name: "キッズ", price: "¥1,500" },
-    { name: "バリカン坊主", price: "¥1,000" }
+    { name: "バリカン坊主", price: "¥1,000" },
     { name: "前髪（※既存のお客様は¥0）", price: "¥1,000" },
   ]
 
