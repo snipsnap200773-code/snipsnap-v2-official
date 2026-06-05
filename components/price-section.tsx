@@ -24,13 +24,15 @@ export function PriceSection() {
   ]
 
   const cutMenu = [
-    { name: "カット", price: "¥4,500" },
+    { name: "ショート", price: "¥4,000" },
+    { name: "ミディアム・ロング", price: "¥4,500" },
+    { name: "フェイド", price: "¥5,000" },
     { name: "シニア（60歳以上）", price: "¥4,000" },
-    { name: "メンズ", price: "¥4,000" },
     { name: "高校生", price: "¥3,500" },
     { name: "中学生", price: "¥2,500" },
     { name: "小学生", price: "¥2,000" },
     { name: "キッズ", price: "¥1,500" },
+    { name: "バリカン坊主", price: "¥1,000" }
     { name: "前髪（※既存のお客様は¥0）", price: "¥1,000" },
   ]
 
