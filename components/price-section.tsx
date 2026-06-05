@@ -79,7 +79,17 @@ export function PriceSection() {
             <PriceTable title="Perm（シャンプー別）" items={permMenu} />
           </div>
           <div className="space-y-8">
-            <PriceTable title="Cut（シャンプー＆スタイリング込）" items={cutMenu} />
+            <PriceTable 
+  title={
+    <>
+      Cut（シャンプー＆スタイリング込）
+      <span className="block text-xs text-red-800 mt-1 font-normal">
+  ※中学生以下はシャンプー別
+</span>
+    </>
+  } 
+  items={cutMenu} 
+/>
             <PriceTable title="ヘアケア（シャンプー別）" items={careMenu} />
             <PriceTable title="その他" items={otherMenu} />
           </div>
