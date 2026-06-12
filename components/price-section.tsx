@@ -57,7 +57,7 @@ export function PriceSection() {
 
   const colorPassport = [
     { course: "3回コース", period: "3ヶ月", frequency: "45日に1回", colorPrice: "¥9,000（¥3,000/回）", hennaPrice: "¥12,000（¥4,000/回）" },
-    { course: "5回コース", period: "4ヶ月", frequency: "30日に1回", colorPrice: "¥14,000（¥2,800/回）", hennaPrice: "¥17,000（¥3,400/回）" },
+    { course: "5回コース", period: "4ヶ月", frequency: "30日に1回", colorPrice: "¥14,000（¥2,800/回）", hennaPrice: "¥18,000（¥3,600/回）" },
     { course: "8回コース", period: "5ヶ月", frequency: "21日に1回", colorPrice: "¥20,000（¥2,500/回）", hennaPrice: "¥24,000（¥3,000/回）" },
   ]
 
